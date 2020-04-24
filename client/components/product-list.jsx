@@ -31,7 +31,7 @@ class ProductList extends React.Component {
             productImage={product.image}
             productName={product.name}
             productPrice={`$${product.price}`}
-            productDescription={product.description}
+            productDescription={product.shortDescription}
           />
         );
       })

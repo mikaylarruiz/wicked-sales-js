@@ -1,13 +1,4 @@
-header {
-  display: flex;
-  padding: 1rem;
-  background-color: black;
-  color: white;
-}
-h3 {
-  padding-top: .5rem;
-}
-.card-img-top {
+.cardImage {
   height: 15rem;
   object-fit: contain;
 }
