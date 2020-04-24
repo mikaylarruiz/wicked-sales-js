@@ -2,3 +2,8 @@
   height: 15rem;
   object-fit: contain;
 }
+
+div > img {
+  width: 15rem;
+  object-fit: cover;
+}
