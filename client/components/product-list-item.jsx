@@ -8,7 +8,7 @@ function ProductListItem(props) {
 
   return (
     <div className="card col-3 m-2">
-      <img className="card-img-top" src={productImage}/>
+      <img className="card-img-top cardImage" src={productImage}/>
       <div className="card-body p-2">
         <h5 className="card-title">{productName}</h5>
         <p className="text-muted">{productPrice}</p>
